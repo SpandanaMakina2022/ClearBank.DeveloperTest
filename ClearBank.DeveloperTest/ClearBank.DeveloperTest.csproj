@@ -1,0 +1,45 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="bin\Debug\netcoreapp3.1\**" />
+    <EmbeddedResource Remove="bin\Debug\netcoreapp3.1\**" />
+    <None Remove="bin\Debug\netcoreapp3.1\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs" />
+    <Compile Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.AssemblyInfo.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="obj\ClearBank.DeveloperTest.csproj.nuget.dgspec.json" />
+    <Content Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\project.assets.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="obj\ClearBank.DeveloperTest.csproj.nuget.g.props" />
+    <None Include="obj\ClearBank.DeveloperTest.csproj.nuget.g.targets" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.AssemblyInfoInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.assets.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.csproj.AssemblyReference.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.csproj.CoreCompileInputs.cache" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.dll" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.GeneratedMSBuildEditorConfig.editorconfig" />
+    <None Include="obj\Debug\netcoreapp3.1\ClearBank.DeveloperTest.pdb" />
+    <None Include="obj\project.nuget.cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="4.7.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\" />
+  </ItemGroup>
+
+</Project>
